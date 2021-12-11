@@ -41,15 +41,16 @@ export default function App() {
   } else {
     return (
       <Fragment>
-        <h3>Clima nas suas Coordenadas ({weather['weather'][0]['description']})</h3>
-        <hr/>
-        <ul>
-          <li>Temperatura atual: {weather['main']['temp']}°</li>
-          <li>Temperatura máxima: {weather['main']['temp_max']}°</li>
-          <li>Temperatura minima: {weather['main']['temp_min']}°</li>
-          <li>Pressão: {weather['main']['pressure']} hpa</li>
-          <li>Humidade: {weather['main']['humidity']}%</li>
-        </ul>
+        <div className='Elemento'>
+          <h1>Clima nas suas Coordenadas ({weather['weather'][0]['description']})</h1>
+          <ul>
+            <h3>Temperatura atual: {weather['main']['temp']}°</h3>
+            <h3>Temperatura máxima: {weather['main']['temp_max']}°</h3>
+            <h3>Temperatura minima: {weather['main']['temp_min']}°</h3>
+            <h3>Pressão: {weather['main']['pressure']} hpa</h3>
+            <h3>Humidade: {weather['main']['humidity']}%</h3>
+          </ul>
+        </div>
       </Fragment>
     );
   }

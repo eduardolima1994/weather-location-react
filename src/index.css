@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.Elemento {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #00bfa5;
+  color: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  width: 40%;
+
+}
