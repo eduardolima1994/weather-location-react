@@ -1,6 +1,6 @@
 # Exibe o Clima nas suas Coordenadas
 
-- Sem CSS no momento inicial.
+- CSS básico.
 
 # Getting Started with Create React App
 
