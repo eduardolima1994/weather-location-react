@@ -1,7 +1,10 @@
-# Exibe o Clima nas suas Coordenadas
+# Exibe o clima nas suas coordenadas
 
-- CSS básico.
+Exibe o clima nas suas coordenadas, desenvolvido em:
+- ReactJS
+- CSS (básico)
 
+# Instruções:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
